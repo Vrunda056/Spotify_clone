@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="spotify/logo.png">
+    <title>Spotify - Web Player: Music For Everyone</title>
+    <link rel="stylesheet" href="spotify_clone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="sp">
+
+        <div class="sidebar">
+            <div class="fd">
+                <div class="home">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="sd">
+                <div class="lib">
+                    <img src="spotify/library_icon.png" >
+                    <a href="#" >Your Library</a>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="cards">
+                    <div class="card1">
+                        <p class="hed">Create your first playlist</p>
+                        <p>It's easy, we'll help you</p>
+                        <button type="button" class="btn"> Create playlist</button>
+                    </div>
+                    <div class="card2 card1">
+                        <p class="hed">Let's find some podcast to follow</p>
+                        <p>We'll keep you updated on new episodes</p>
+                        <button type="button" class="btn"> Browse podcasts</button>
+                    </div>
+                </div>                
+            </div>
+            
+        </div>
+        <div class="main">
+            <div class="head">
+                <div class="forbake">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div class="other">
+                    <div class="btns">
+                        <button type="button" class="btn">Explore Premium</button>
+                        <button type="button" class="btn  b1"  ><i class="fa-regular fa-circle-down" style="padding-right: 8px;"></i>Install App</button>
+                    </div>
+                    <i class="fa-regular fa-user user"></i>
+                </div>
+            </div>
+            <div class="song">
+                <h2>Recently played</h2>
+                <div class="row1">   
+                    <div class="alb">
+                        <img src="spotify/card1img.jpeg">
+                        <h4>Top 50 - Global</h4>
+                        <p>Your daily upadate for the most played track...</p>
+                    </div>
+                </div>
+                
+                <h2>Spotify orignal & exclusive podcasts</h2>
+                <div class="row2 row1">   
+                    <div class="alb">
+                        <img src="spotify/card2img.jpeg">
+                        <h4>Top 50 - Global</h4>
+                        <p>Your daily upadate for the most played track...</p>
+                    </div>
+                    <div class="alb">
+                        <img src="spotify/card3img.jpeg">
+                        <h4>Top 50 - Global</h4>
+                        <p>Your daily upadate for the most played track...</p>
+                    </div>   
+                    <div class="alb">
+                        <img src="spotify/card4img.jpeg">
+                        <h4>Top 50 - Global</h4>
+                        <p>Your daily upadate for the most played track...</p>
+                    </div>
+                    <div class="alb">
+                        <img src="spotify/card5img.jpeg">
+                        <h4>Top 50 - Global</h4>
+                        <p>Your daily upadate for the most played track...</p>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="player">
+            <div class="ply1">
+                <img src="spotify/song_logo.png" alt="song_logo">
+                <div class="discription">
+                    <p class="name">Dooriyan(feat.Kaprila)</p>
+                    <p class="artist">Dino james</p>
+                </div>
+                
+            </div>
+            <div class="ply2">
+                <div class="icons">
+                    <img src="spotify/player_icon1.png" >
+                    <img src="spotify/player_icon2.png" >
+                    <img src="spotify/player_icon3.png" style="height: 1.5rem; width: 1.5rem; margin-top: 0px;opacity: 1; ">
+                    <img src="spotify/player_icon4.png" >
+                    <img src="spotify/player_icon5.png" >
+                </div>
+                <div class="plybar">
+                    <span class="stime">0.00</span>
+                    <input type="range" min="0" max="100" class="progress">
+                    <span class="etime">3.33</span>
+                </div>
+            </div>
+            <div class="ply3">
+                <span class="material-symbols-outlined">lyrics</span>
+                <span class="material-symbols-outlined">playlist_add</span>
+                <span class="material-symbols-outlined">devices</span>
+                <div class="sound">
+                    <span class="material-symbols-outlined">volume_up</span>
+                    <span class="progress"><input type="range" min="0" max="100" step="10"></span>
+                </div>
+                <span class="material-symbols-outlined">open_in_full</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
